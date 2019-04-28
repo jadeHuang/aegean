@@ -2,14 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3607f28a-8b8a-4daa-994f-a37e297e2e43" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/DBInstance.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/middleware/db.middleware.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/route/delivery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/route/order.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/route/product.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/route/stock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/route/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/const/ErrorCode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/const/Service.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/iconv-lite/.travis.yml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/package.json" afterPath="$PROJECT_DIR$/client/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/DBInstance.js" afterPath="$PROJECT_DIR$/server/DBInstance.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/index.js" afterPath="$PROJECT_DIR$/server/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/body-parser/HISTORY.md" afterPath="$PROJECT_DIR$/server/node_modules/body-parser/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/body-parser/README.md" afterPath="$PROJECT_DIR$/server/node_modules/body-parser/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/body-parser/lib/types/urlencoded.js" afterPath="$PROJECT_DIR$/server/node_modules/body-parser/lib/types/urlencoded.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/body-parser/package.json" afterPath="$PROJECT_DIR$/server/node_modules/body-parser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/bytes/History.md" afterPath="$PROJECT_DIR$/server/node_modules/bytes/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/bytes/Readme.md" afterPath="$PROJECT_DIR$/server/node_modules/bytes/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/bytes/index.js" afterPath="$PROJECT_DIR$/server/node_modules/bytes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/bytes/package.json" afterPath="$PROJECT_DIR$/server/node_modules/bytes/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/iconv-lite/Changelog.md" afterPath="$PROJECT_DIR$/server/node_modules/iconv-lite/Changelog.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/iconv-lite/encodings/sbcs-codec.js" afterPath="$PROJECT_DIR$/server/node_modules/iconv-lite/encodings/sbcs-codec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/iconv-lite/encodings/sbcs-data.js" afterPath="$PROJECT_DIR$/server/node_modules/iconv-lite/encodings/sbcs-data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/iconv-lite/package.json" afterPath="$PROJECT_DIR$/server/node_modules/iconv-lite/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/raw-body/HISTORY.md" afterPath="$PROJECT_DIR$/server/node_modules/raw-body/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/node_modules/raw-body/package.json" afterPath="$PROJECT_DIR$/server/node_modules/raw-body/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/package-lock.json" afterPath="$PROJECT_DIR$/server/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/package.json" afterPath="$PROJECT_DIR$/server/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/route/order.js" afterPath="$PROJECT_DIR$/server/route/order.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/route/product.js" afterPath="$PROJECT_DIR$/server/route/product.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/route/stock.js" afterPath="$PROJECT_DIR$/server/route/stock.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/route/user.js" afterPath="$PROJECT_DIR$/server/route/user.js" />
     </list>
     <ignored path="aegean.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,92 +49,64 @@
     <favorites_list name="aegean" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/index.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logo.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/logo.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBInstance.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/DBInstance.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="15">
+              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.middleware.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/middleware/db.middleware.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/route/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/route/product.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stock.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/route/stock.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delivery.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/route/delivery.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/route/order.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="120">
+              <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/package.json">
+        <entry file="file://$PROJECT_DIR$/client/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="60">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/App.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -136,14 +128,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/server/package.json" />
-        <option value="$PROJECT_DIR$/server/route/product.js" />
-        <option value="$PROJECT_DIR$/server/route/stock.js" />
         <option value="$PROJECT_DIR$/server/route/delivery.js" />
-        <option value="$PROJECT_DIR$/server/route/order.js" />
-        <option value="$PROJECT_DIR$/server/route/user.js" />
         <option value="$PROJECT_DIR$/server/middleware/db.middleware.js" />
         <option value="$PROJECT_DIR$/server/DBInstance.js" />
+        <option value="$PROJECT_DIR$/server/const/ErrorCode.js" />
+        <option value="$PROJECT_DIR$/server/route/user.js" />
+        <option value="$PROJECT_DIR$/server/route/stock.js" />
+        <option value="$PROJECT_DIR$/server/route/product.js" />
         <option value="$PROJECT_DIR$/server/index.js" />
+        <option value="$PROJECT_DIR$/server/route/order.js" />
+        <option value="$PROJECT_DIR$/server/const/Service.js" />
+        <option value="$PROJECT_DIR$/client/.babelrc" />
+        <option value="$PROJECT_DIR$/client/src/index.js" />
+        <option value="$PROJECT_DIR$/client/src/App.js" />
+        <option value="$PROJECT_DIR$/client/src/App.css" />
       </list>
     </option>
   </component>
@@ -182,7 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,13 +209,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aegean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aegean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,6 +245,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v9.4.0/bin/node" />
+    <property name="SearchEverywhereHistoryKey" value="index.js&#9;FILE&#9;file:///Users/renjie.huang/projects/aegean/server/index.js&#10;stock&#9;FILE&#9;file:///Users/renjie.huang/projects/aegean/server/route/stock.js" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -267,6 +284,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -309,11 +332,12 @@
       <workItem from="1554788741739" duration="600000" />
       <workItem from="1554802774624" duration="8000" />
       <workItem from="1556266729542" duration="5544000" />
+      <workItem from="1556432082494" duration="8645000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13680000" />
+    <option name="totallyTimeSpent" value="22325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -353,50 +377,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/route/stock.js">
+    <entry file="file://$PROJECT_DIR$/server/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/route/delivery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/route/product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/route/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/route/order.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -417,10 +401,214 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/route/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/route/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/route/stock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/route/delivery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/route/order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="12" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/middleware/db.middleware.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/route/delivery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/DBInstance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/route/stock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="325">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/route/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/route/order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/const/Service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/const/ErrorCode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/route/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1088">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/logo.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
         </state>
       </provider>
