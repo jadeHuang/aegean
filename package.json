@@ -1,0 +1,24 @@
+{
+  "name": "aegean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "client": "0.0.1",
+    "react-app": "^1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadeHuang/aegean.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jadeHuang/aegean/issues"
+  },
+  "homepage": "https://github.com/jadeHuang/aegean#readme"
+}
